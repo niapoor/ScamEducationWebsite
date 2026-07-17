@@ -1,1 +1,1 @@
-# ScamEducationWebsite
+# Scam Education Website
