@@ -1,3 +1,14 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "rewrites": [
+    { "source": "/", "destination": "/pages/index.html" },
+    { "source": "/index.html", "destination": "/pages/index.html" },
+    { "source": "/about", "destination": "/pages/about.html" },
+    { "source": "/about.html", "destination": "/pages/about.html" },
+    { "source": "/resources-print", "destination": "/pages/resources-print.html" },
+    { "source": "/resources-print.html", "destination": "/pages/resources-print.html" },
+    { "source": "/resources-gov", "destination": "/pages/resources-gov.html" },
+    { "source": "/resources-gov.html", "destination": "/pages/resources-gov.html" },
+    { "source": "/licensing", "destination": "/pages/licensing.html" },
+    { "source": "/licensing.html", "destination": "/pages/licensing.html" }
+  ]
 }
