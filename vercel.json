@@ -1,0 +1,27 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/pages/index.html" },
+    { "source": "/index.html", "destination": "/pages/index.html" },
+    { "source": "/about", "destination": "/pages/about.html" },
+    { "source": "/about.html", "destination": "/pages/about.html" },
+    { "source": "/donate", "destination": "/pages/donate.html" },
+    { "source": "/donate.html", "destination": "/pages/donate.html" },
+    { "source": "/licensing", "destination": "/pages/licensing.html" },
+    { "source": "/licensing.html", "destination": "/pages/licensing.html" },
+    { "source": "/resources/printable-guides", "destination": "/pages/resources/printable-guides.html" },
+    { "source": "/resources/printable-guides.html", "destination": "/pages/resources/printable-guides.html" },
+    { "source": "/resources/government", "destination": "/pages/resources/government.html" },
+    { "source": "/resources/government.html", "destination": "/pages/resources/government.html" },
+    { "source": "/resources/email-based", "destination": "/pages/resources/email-based/index.html" },
+    { "source": "/resources/email-based/", "destination": "/pages/resources/email-based/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/pages/resources/email-based/phishing-examples/(.*)",
+      "headers": [
+        { "key": "Content-Security-Policy", "value": "default-src 'none'; style-src 'self'; img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'self'" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" }
+      ]
+    }
+  ]
+}
