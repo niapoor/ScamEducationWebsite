@@ -1,0 +1,16 @@
+{
+  "examples": [
+    {
+      "id": "paypal-verification",
+      "file": "01-paypal-verification.html",
+      "title": "Fake PayPal Verification Email",
+      "description": "A message claiming your PayPal account is limited, designed to pressure you into entering your login details on a lookalike site."
+    },
+    {
+      "id": "package-delivery-fee",
+      "file": "02-package-delivery-fee.html",
+      "title": "Fake Package Delivery Email",
+      "description": "A shipping notice that asks for a small \u201credelivery fee\u201d to reschedule a package you weren't expecting \u2014 a common way to collect payment card details."
+    }
+  ]
+}
