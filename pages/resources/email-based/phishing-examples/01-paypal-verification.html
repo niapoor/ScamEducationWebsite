@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Simulated example: fake PayPal verification email</title>
+<link rel="stylesheet" href="example.css">
+</head>
+<body>
+
+<article class="email">
+
+  <header class="email-meta">
+    <p class="email-subject">Your account has been temporarily limited</p>
+    <dl>
+      <dt>From</dt>
+      <dd>"PayPal Security" &lt;service@<mark class="annotation">paypa1-secure-center.com<span class="annotation-suffix">&gt;</span><span class="annotation-note">This isn't a PayPal domain. Real PayPal emails come from an address ending in @paypal.com — scammers register lookalike domains (notice the "1" standing in for an "l") that look right at a glance.</span></mark></dd>
+      <dt>To</dt>
+      <dd>you@example.com</dd>
+      <dt>Date</dt>
+      <dd>Mon, Jul 20, 2026, 9:14 AM</dd>
+    </dl>
+  </header>
+
+  <div class="email-body">
+
+    <p><mark class="annotation">Dear Customer,<span class="annotation-note">Legitimate account emails usually greet you by the name on your account, not a generic term like "Customer" or "Member."</span></mark></p>
+
+    <p>We noticed unusual sign-in activity on your account. To keep your account safe, we've temporarily limited some features until you confirm a few details.</p>
+
+    <p><mark class="annotation">You must verify your information within 24 hours or your account will be permanently suspended.<span class="annotation-note">Urgency and threats are a pressure tactic. They're designed to make you act quickly, before you have time to look closely or ask someone else for a second opinion.</span></mark></p>
+
+    <p style="text-align:center;"><mark class="annotation"><a href="#" class="email-btn">Verify My Account</a><span class="annotation-note">The button text says "Verify My Account," but a link's visible text never has to match where it actually goes. Always check the real destination before clicking — never trust a button's label alone.</span></mark></p>
+
+    <p>To restore full access, please confirm <mark class="annotation">your full name, date of birth, and card number<span class="annotation-note">No legitimate company asks you to submit sensitive personal or financial information by clicking a link in an email. If you're ever unsure, go directly to the company's site by typing the address yourself instead of clicking through.</span></mark> using the link above.</p>
+
+    <p>Thank you for being a valued customer.</p>
+    <p>PayPal Account Services</p>
+
+  </div>
+
+  <footer class="email-footer">
+    <p><mark class="annotation">&copy; 2026 PayPal Inc. All rights reserved. This is an automated message, please do not reply.<span class="annotation-note">Scammers often copy real footer text, but small details can still be off — a wrong year, a missing legal entity name, or formatting that doesn't quite match the company's real emails.</span></mark></p>
+  </footer>
+
+</article>
+
+</body>
+</html>
