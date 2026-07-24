@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Simulated example: fake benefits enrollment email</title>
+<link rel="stylesheet" href="example.css">
+</head>
+<body>
+
+<article class="email">
+
+  <header class="email-meta">
+    <p class="email-subject">Action required: your benefits enrollment is incomplete</p>
+    <dl>
+      <dt>From</dt>
+      <dd>"HR Benefits Team" &lt;enrollment@<mark class="annotation">employee-benefits-portal.info<span class="annotation-suffix">&gt;</span></mark><span class="annotation-note">A real HR department emails from your own company's domain, not a generic third-party-sounding domain that just happens to include the words "benefits portal."</span></dd>
+      <dt>To</dt>
+      <dd>you@example.com</dd>
+      <dt>Date</dt>
+      <dd>Wed, Jul 22, 2026, 8:30 AM</dd>
+    </dl>
+  </header>
+
+  <div class="email-body">
+
+    <p><mark class="annotation">Dear Employee,</mark><span class="annotation-note">Your actual HR team already has your name on file and would use it. A generic "Dear Employee" greeting is a sign this was sent to a large list, not personally from HR.</span></p>
+
+    <p>Our records show that <mark class="annotation">you have not completed your annual benefits enrollment</mark><span class="annotation-note">Vague claims about your account or records are designed to sound official without containing any detail that's actually specific to you.</span>. Open enrollment closes at the end of this week.</p>
+
+    <p><mark class="annotation">Failure to complete enrollment by the deadline will result in the loss of your current health coverage.</mark><span class="annotation-note">Threatening a real, high-stakes consequence like losing health coverage is meant to make you act on fear before you've had a chance to verify the message is genuine.</span></p>
+
+    <p style="text-align:center;"><mark class="annotation"><a href="#" class="email-btn">Complete Enrollment Now</a></mark><span class="annotation-note">This button leads to a fake enrollment form built to collect the same personal details listed below, not your company's real HR system.</span></p>
+
+    <p>To confirm your enrollment, please have the following ready: <mark class="annotation">your Social Security number, date of birth, and bank account details for direct deposit setup</mark><span class="annotation-note">Genuine benefits enrollment happens through your employer's established HR platform, which you log into directly — never through a link in an unsolicited email, and never by re-typing your Social Security number or bank details into a page you didn't navigate to yourself.</span>.</p>
+
+    <p>Thank you for your prompt attention to this matter.</p>
+    <p>HR Benefits Team</p>
+
+  </div>
+
+  <footer class="email-footer">
+    <p>This is an automated message from the employee benefits system.</p>
+  </footer>
+
+</article>
+
+</body>
+</html>
