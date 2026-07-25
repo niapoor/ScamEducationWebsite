@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Simulated example: fake package delivery fee email</title>
+<link rel="stylesheet" href="example.css">
+</head>
+<body>
+
+<article class="email">
+
+  <header class="email-meta">
+    <p class="email-subject">Redelivery fee required &mdash; action needed</p>
+    <dl>
+      <dt>From</dt>
+      <dd>"USPS Delivery" &lt;delivery-notice@<mark class="annotation" data-color="1">usps-shipment-tracker.info<span class="annotation-suffix">&gt;</span></mark><span class="annotation-note" data-color="1">The real United States Postal Service sends email from addresses ending in @usps.com or @email.usps.gov — never a domain like this one.</span></dd>
+      <dt>To</dt>
+      <dd>you@example.com</dd>
+      <dt>Date</dt>
+      <dd>Wed, Jul 15, 2026, 7:42 AM</dd>
+    </dl>
+  </header>
+
+  <div class="email-body">
+
+    <p>Dear Customer,</p>
+
+    <p>Our courier attempted to deliver your package today, but nobody was available to receive it. <mark class="annotation" data-color="2">Unfortunately, we was unable to leave the package due to an outstanding redelivery fee.</mark><span class="annotation-note" data-color="2">Watch for small grammar slips like "we was" instead of "we were." Real carrier notifications are usually proofread and consistent — repeated small errors like this are a common tell.</span></p>
+
+    <p><mark class="annotation" data-color="3">A small redelivery fee of $1.99 is required to reschedule your delivery.</mark><span class="annotation-note" data-color="3">Shipping carriers don't charge small "redelivery fees" through an emailed link. This tiny amount is designed to feel easy to dismiss — its real purpose is to collect your card number, and sometimes to test that a stolen card still works.</span></p>
+
+    <p><mark class="annotation" data-color="1">Packages that are not claimed within 48 hours will be returned to the sender.</mark><span class="annotation-note" data-color="1">A short deadline creates pressure to act immediately instead of pausing to check whether the message is legitimate.</span></p>
+
+    <p style="text-align:center;"><mark class="annotation" data-color="2"><a href="#" class="email-btn" data-fake-url="https://bash.video">Schedule Redelivery</a></mark><span class="annotation-note" data-color="2">As with any emailed button, the visible label doesn't guarantee where it leads. On a computer, hover your mouse over a link before clicking to see where it really goes. On a phone or tablet, press and hold the link to preview its destination the same way. Better yet, go to the carrier's official site or app directly instead of clicking through from an email.</span></p>
+
+    <p>Tracking Number: 7733-XXXX-9021</p>
+
+    <p><mark class="annotation" data-color="3">If you did not expect a delivery, please disregard this message.</mark><span class="annotation-note" data-color="3">This line is meant to sound reassuring, but if you weren't expecting a package at all, that itself is the biggest red flag — not something to wave away.</span></p>
+
+    <p>United States Postal Service</p>
+
+  </div>
+
+  <footer class="email-footer">
+    <p>This is an automated notification. Please do not reply to this email.</p>
+  </footer>
+
+</article>
+
+</body>
+</html>
