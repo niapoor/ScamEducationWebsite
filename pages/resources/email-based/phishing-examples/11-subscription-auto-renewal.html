@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Simulated example: fake subscription renewal notice</title>
+<link rel="stylesheet" href="example.css">
+</head>
+<body>
+
+<article class="email">
+
+  <header class="email-meta">
+    <p class="email-subject">Payment Failed &mdash; Your subscription will be cancelled</p>
+    <dl>
+      <dt>From</dt>
+      <dd>"Streaming Billing" &lt;billing@<mark class="annotation">account-billing-support.info<span class="annotation-suffix">&gt;</span></mark><span class="annotation-note">A real billing notice comes from the actual streaming service's own domain. A generic "billing support" domain that doesn't name any specific company is a sign this was mass-produced for use against any service's customers.</span></dd>
+      <dt>To</dt>
+      <dd>you@example.com</dd>
+      <dt>Date</dt>
+      <dd>Wed, Jul 15, 2026, 5:40 PM</dd>
+    </dl>
+  </header>
+
+  <div class="email-body">
+
+    <p><mark class="annotation">Dear Valued Customer,</mark><span class="annotation-note">A real subscription service already knows your name and account details, and would use them here rather than a generic greeting.</span></p>
+
+    <p><mark class="annotation">We were unable to process your automatic renewal payment. Your subscription and all saved content will be permanently deleted within 24 hours unless you update your billing information.</mark><span class="annotation-note">Threatening permanent deletion on a tight deadline is designed to provoke panic. Real services give you a grace period and simply pause access, rather than threatening to erase your account.</span></p>
+
+    <p style="text-align:center;"><mark class="annotation"><a href="#" class="email-btn" data-fake-url="https://bash.video">Update Payment Method</a></mark><span class="annotation-note">This button leads to a fake payment page designed to collect your full card number, expiration date, and security code.</span></p>
+
+    <p>To keep your subscription active, please <mark class="annotation">confirm your card number, expiration date, and CVV, along with your account password</mark><span class="annotation-note">A legitimate billing update only ever happens inside the actual service's own app or website that you navigate to yourself — never by re-entering your card details and your account password together through a link in an email.</span>.</p>
+
+    <p>We're sorry for any inconvenience this may cause.</p>
+
+  </div>
+
+  <footer class="email-footer">
+    <p>This is an automated billing notification.</p>
+  </footer>
+
+</article>
+
+</body>
+</html>
