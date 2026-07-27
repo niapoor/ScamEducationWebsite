@@ -1,0 +1,106 @@
+{
+  "examples": [
+    {
+      "id": "paypal-verification",
+      "file": "01-paypal-verification.html",
+      "title": "Fake PayPal Verification Email",
+      "description": "Instead of clicking the link, type paypal.com directly into your browser and log in there to check your account status."
+    },
+    {
+      "id": "package-delivery-fee",
+      "file": "02-package-delivery-fee.html",
+      "title": "Fake Package Delivery Email",
+      "description": "Look up your tracking number directly on the carrier's official site or app rather than clicking the link in the email."
+    },
+    {
+      "id": "shared-document",
+      "file": "03-shared-document.html",
+      "title": "Fake Shared Document Email",
+      "description": "Go directly to the file-sharing service's own site or app to check for shared files, instead of clicking the link in the email."
+    },
+    {
+      "id": "boss-gift-card-request",
+      "file": "04-boss-gift-card-request.html",
+      "title": "Fake \u201cBoss\u201d Gift Card Request",
+      "description": "Call or message the person directly using a number or channel you already know is theirs, rather than replying to the email."
+    },
+    {
+      "id": "unusual-login-alert",
+      "file": "05-unusual-login-alert.html",
+      "title": "Fake Unusual Login Alert",
+      "description": "Log into your account directly through the official site or app to check recent activity, instead of clicking the link in the alert."
+    },
+    {
+      "id": "benefits-enrollment",
+      "file": "06-benefits-enrollment.html",
+      "title": "Fake Benefits Enrollment Email",
+      "description": "Log into your company's actual HR or benefits portal directly to check your enrollment status, instead of clicking the link."
+    },
+    {
+      "id": "government-impersonation",
+      "file": "07-government-impersonation.html",
+      "title": "Fake Government Agency Email",
+      "description": "Look up the agency's official phone number yourself and call to verify any balance, rather than using contact info from the email."
+    },
+    {
+      "id": "won-a-prize",
+      "file": "08-won-a-prize.html",
+      "title": "Fake Prize Notification",
+      "description": "If you don't remember entering, you didn't win anything \u2014 a real prize never requires paying a fee upfront to receive it."
+    },
+    {
+      "id": "password-expiration",
+      "file": "09-password-expiration.html",
+      "title": "Fake Password Expiration Notice",
+      "description": "Change your password by going directly to your company's real login page, not through a link in an unexpected email."
+    },
+    {
+      "id": "government-extortion",
+      "file": "10-government-extortion.html",
+      "title": "Fake Law Enforcement Extortion Email",
+      "description": "Look up the agency's official number yourself and call to verify \u2014 real agencies never collect fines by email or in cryptocurrency."
+    },
+    {
+      "id": "subscription-auto-renewal",
+      "file": "11-subscription-auto-renewal.html",
+      "title": "Fake Subscription Renewal Notice",
+      "description": "Check your billing status by logging into the service's official site or app directly, instead of clicking the link in the email."
+    },
+    {
+      "id": "mailbox-almost-full",
+      "file": "12-mailbox-almost-full.html",
+      "title": "Fake Mailbox Storage Warning",
+      "description": "Check your real storage usage by logging into your email account directly through your provider's site or app."
+    },
+    {
+      "id": "cloud-storage-renewal",
+      "file": "13-cloud-storage-renewal.html",
+      "title": "Fake Cloud Storage Payment Failure",
+      "description": "Log into the real storage provider's site or app directly to check your billing status, instead of clicking the link."
+    },
+    {
+      "id": "inheritance-letter",
+      "file": "14-inheritance-letter.html",
+      "title": "Fake Inheritance / Advance-Fee Letter",
+      "description": "Don't reply or engage \u2014 a stranger offering a fortune from nowhere is never real, no matter how detailed or emotional the story."
+    },
+    {
+      "id": "lowes-survey-prize",
+      "file": "15-lowes-survey-prize.html",
+      "title": "Fake Retailer Survey Prize Email",
+      "description": "Check the retailer's real site or app directly for any active promotions, rather than clicking the link or the unsubscribe button."
+    },
+    {
+      "id": "paypal-account-limited",
+      "file": "16-paypal-account-limited.html",
+      "title": "Fake PayPal Account Limited Email",
+      "description": "Type paypal.com directly into your browser and log in there to check your account status, instead of clicking the link."
+    },
+    {
+      "id": "zoom-meeting-attendees",
+      "file": "17-zoom-meeting-attendees.html",
+      "title": "Fake Zoom Meeting Attendees Email",
+      "description": "Open the Zoom app directly to start or check a meeting, rather than clicking a meeting link from an unexpected email."
+    }
+  ]
+}
