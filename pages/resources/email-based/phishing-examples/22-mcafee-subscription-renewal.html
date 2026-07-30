@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Simulated example: fake McAfee subscription renewal email</title>
+<link rel="stylesheet" href="example.css">
+</head>
+<body>
+
+<article class="email">
+
+  <header class="email-meta">
+    <p class="email-subject">Your McAfee Subscription Will Be Auto-Renewed</p>
+    <dl>
+      <dt>From</dt>
+      <dd>"McAfee Billing Team" &lt;billing@<mark class="annotation" data-color="1">mcafee-renewal-service.com<span class="annotation-suffix">&gt;</span></mark><span class="annotation-note" data-color="1">Real McAfee emails come from an address ending in @mcafee.com. A separate "renewal-service" domain only borrows the name to look connected — it isn't McAfee's.</span></dd>
+      <dt>To</dt>
+      <dd>you@example.com</dd>
+      <dt>Date</dt>
+      <dd class="email-date" data-days-ago="5" data-time="8:14 AM">Wed, Jul 22, 2026, 8:14 AM</dd>
+    </dl>
+  </header>
+
+  <div class="email-body">
+
+    <div class="mcafee-banner-strip"><img src="data:image/webp;base64,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" alt="McAfee logo" class="mcafee-banner"></div>
+
+    <p class="mcafee-date">Date: <span class="email-date-ddmmyyyy" data-days-ago="5">22-07-2026</span></p>
+
+    <p class="mcafee-greeting">Dear consumer,</p>
+
+    <p><mark class="annotation" data-color="2">We are glad to serve you as our registered customer. We have the premium security services ready for installation. As per our connect with you, your plan will be auto renewed with in 24 hrs and it will charge you AU$419.00</mark></p><span class="annotation-note" data-color="2">Awkward, slightly-off phrasing like "as per our connect with you" is a common sign of a template translated or written by someone who isn't a native English speaker — worth noticing alongside everything else here.</span>
+
+    <table class="mcafee-table">
+      <tr><th>Invoice No</th><th>Product Code</th><th>Product Name</th><th>Product Amount</th></tr>
+      <tr><td><mark class="annotation" data-color="3">YH2VYU4V63RF</mark></td><td>TFV3YU752RD</td><td>Security Services</td><td>AU$419.00</td></tr>
+    </table><span class="annotation-note" data-color="3">A professional-looking invoice table with a specific reference number is meant to feel like proof of a real transaction — but this number isn't tied to any account of yours, and there's no way for you to independently verify it.</span>
+
+    <p><mark class="annotation" data-color="1">If you didn't authorize this Charge, you have 24 Hrs. To cancel &amp; get an instant refund of your annual subscription, please contact our customer care: +1 (555) 201-8834</mark></p><span class="annotation-note" data-color="1">A tight 24-hour deadline paired with a phone number to call is designed to rush you into a live conversation with a scammer, who will ask you to "verify" your card details or install remote-access software to process the "refund."</span>
+
+    <p>Regards<br>
+    McAfee Billing Team : <mark class="annotation" data-color="2">+1 (555) 201-8834</mark></p><span class="annotation-note" data-color="2">This is the exact same number as the "customer care" line above, despite being labeled as a separate billing department — a real company with distinct support and billing teams wouldn't route both through one identical number.</span>
+
+    <p>Thanks for choosing McAfee.</p>
+
+  </div>
+
+</article>
+
+</body>
+</html>
