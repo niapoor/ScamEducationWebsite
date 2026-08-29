@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Simulated example: fake benefits enrollment email</title>
+<link rel="stylesheet" href="example.css">
+</head>
+<body>
+
+<article class="email">
+
+  <header class="email-meta">
+    <p class="email-subject">Action required: your benefits enrollment is incomplete</p>
+    <dl>
+      <dt>From</dt>
+      <dd>"HR Benefits Team" &lt;enrollment@<mark class="annotation" data-color="1">hrsupportint.com<span class="annotation-suffix">&gt;</span></mark><span class="annotation-note" data-color="1">A real HR department will email you from one of your company’s official email addresses, not from an address like &quot;hrsupportint.com&quot;.</span></dd>
+      <dt>To</dt>
+      <dd>you@example.com</dd>
+      <dt>Cc</dt>
+      <dd><mark class="annotation" data-color="2">j.alvarez@company.com, r.chen@company.com, k.oconnor@company.com, m.patel@company.com, +72 more</mark><span class="annotation-note" data-color="2">A visible list of dozens of other recipients exposes everyone’s email address to everyone else on the list, which a real HR team would not do.</span></dd>
+      <dt>Date</dt>
+      <dd class="email-date" data-days-ago="3" data-time="8:30 AM">Wed, Jul 22, 2026, 8:30 AM</dd>
+    </dl>
+  </header>
+
+  <div class="email-body">
+
+    <p><mark class="annotation" data-color="3">Dear Employee,</mark><span class="annotation-note" data-color="3">Your HR team already has your name on file and would use it in a notification email. A generic &quot;Dear Employee&quot; greeting is a sign that the email was sent to a large list by someone who is not familiar with the recipients, rather than by HR.</span></p>
+
+    <p>Open enrollment closes at the end of this week, and <mark class="annotation" data-color="1">our records show that you have not completed your annual benefits enrollment.</mark><span class="annotation-note" data-color="1">A real HR notification would reference specific plan details rather than a vague, generic claim that you have unfinished enrollment.</span></p>
+
+    <p><mark class="annotation" data-color="2">Failure to complete enrollment by the deadline will result in the loss of your current health coverage.</mark></p><span class="annotation-note" data-color="2">Threatening a serious consequence, like losing your health coverage, is meant to make you act out of fear before you have a chance to verify that the message is real.</span>
+
+    <p>Please <mark class="annotation" data-color="3"><a tabindex="0" role="link" data-fake-url="https://www.hrsupportint.com/verify-benefits-enrollment-now" aria-label="complete your enrollment now, link — when you hover over it, you can see the website you'll be taken to if you click it: https://www.hrsupportint.com/verify-benefits-enrollment-now">complete your enrollment now</a></mark> to avoid any disruption in coverage.</p><span class="annotation-note" data-color="3">This link leads to a fake enrollment form designed to collect your personal information.</span>
+
+    <p>To confirm your enrollment, please have the following ready: <mark class="annotation" data-color="1">your Social Security number, date of birth, and bank account details for direct deposit setup.</mark><span class="annotation-note" data-color="1">Whenever an email asks for highly sensitive information, such as your Social Security number, date of birth, or bank account details, be especially cautious.</span></p>
+
+    <p>Thank you for your prompt attention to this matter.</p>
+    <p>HR Benefits Team</p>
+
+  </div>
+
+  <footer class="email-footer">
+    <p>This is an automated message from the employee benefits system.</p>
+  </footer>
+
+</article>
+
+</body>
+</html>
